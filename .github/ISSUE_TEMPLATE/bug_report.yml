@@ -1,0 +1,64 @@
+name: Bug report
+description: Something in SysDash isn't working
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! This tracker is public, so **do not post personal information**
+        (names, email or IP addresses, computer/user names, or paths with your Windows user name).
+  - type: input
+    id: version
+    attributes:
+      label: SysDash version
+      placeholder: "0.2"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2, 64-bit"
+    validations:
+      required: true
+  - type: input
+    id: cpu
+    attributes:
+      label: CPU
+      placeholder: "AMD Ryzen 7 5800X3D"
+    validations:
+      required: true
+  - type: input
+    id: motherboard
+    attributes:
+      label: Motherboard
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+    validations:
+      required: true
+  - type: input
+    id: vocore
+    attributes:
+      label: VoCore model
+      placeholder: '5" V7B, 800x480'
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead? Steps to reproduce help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: sysdash.log
+      description: Tray icon > Open log, then paste the contents. Check it for personal information first.
+      render: text
+    validations:
+      required: true
