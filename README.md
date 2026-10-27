@@ -10,7 +10,7 @@ Live CPU, GPU, fan, pump and RAM stats in one small app. No SimHub. No HWiNFO. N
 <p align="center">
   <a href="../../releases/latest"><strong>⬇ Download the latest version (Windows)</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://shaferware.com/sysdash">shaferware.com/sysdash</a>
+  <a href="https://shaferware.net/sysdash">shaferware.net/sysdash</a>
 </p>
 
 ![SysDash on a VoCore screen with color-coded CPU, GPU and cooling readings](images/hero-1920x1080.jpg)
@@ -88,4 +88,4 @@ Use the [bug report form](../../issues/new/choose). Please include your Windows 
 - Sensor reading: [LibreHardwareMonitorLib](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) (MPL 2.0). USB: [libusb](https://github.com/libusb/libusb) (LGPL 2.1). Full list in [THIRD-PARTY.txt](THIRD-PARTY.txt).
 - VoCore and SimHub are trademarks of their respective owners. SysDash is not affiliated with either.
 
-Project page: **https://shaferware.com/sysdash**
+Project page: **https://shaferware.net/sysdash**

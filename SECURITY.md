@@ -6,7 +6,7 @@ If you find a security problem in ShaferWare SysDash (for example, something tha
 or user abuse its administrator rights), please report it privately instead of opening a public issue:
 
 - Use **Security > Report a vulnerability** on this repository, or
-- use the contact form at https://shaferware.com/services.
+- use the contact form at https://shaferware.com/contact/.
 
 Include the SysDash version, your Windows version and the steps to reproduce it.
 
